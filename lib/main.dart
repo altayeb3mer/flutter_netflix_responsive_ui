@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_netflix_responsive_ui/screens/home_screen.dart';
 import 'package:flutter_netflix_responsive_ui/screens/nav_screen.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 
 void main() {
-  runApp(MyApp());
+  runApp(ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {

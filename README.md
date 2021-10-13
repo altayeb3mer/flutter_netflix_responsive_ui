@@ -1,1 +1,4 @@
-# Flutter Netflix Responsive UI Starter Project
+# Flutter Netflix Responsive UI 
+# Developed by 
+# Altayeb Almubarak
+
